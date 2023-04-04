@@ -106,7 +106,7 @@ class Game extends React.Component {
 
     let status;
     if (winner) {
-      status = "Winner: " + winner +' CONGRATUATION! PRESS THE WXIT BUTTON.';
+      status = "Winner: " + winner +' CONGRATUATION! PRESS THE EXIT BUTTON.';
     } else {
       status = "Next player: " + (this.state.xIsNext ? "X" : "O");
     }
